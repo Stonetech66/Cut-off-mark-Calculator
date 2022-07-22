@@ -50,19 +50,41 @@ for i in range (3):
      break
  elif jamb >=400:
     print("invalid Score")
+
+#calculation for Unilag
+University= input("enter Your University")
+if University == "Unilag"
+ for i in range(3):
+  post_utme= float(input("enter your post utme score: "))
+  if post_utme< 30:
+      break
+  elif post_utme> 30:
+     print("ivalid input")
+ print("\n\n waec score: ",agg_w)
+ print("jamb score: ",jamb)
+ print("post utme score: ",post_utme)
+ agg=agg_w+jamb/8+post_utme
+ print("\n\n   Your aggregate is: ",agg)
+
+ 
+ #Calculation For University of Ibadan
+ elif University == "U.I":
+  for i in range(3):
+  post_utme= float(input("enter your post utme score: "))
+  if post_utme< 100:
+      break
+  elif post_utme>= 100:
+     print("ivalid input")
+ print("\n\n waec score: ",agg_w)
+ print("jamb score: ",jamb)
+ print("post utme score: ",post_utme)
+ agg=agg_w+jamb/8+post_utme
+ print("\n\n   Your aggregate is: ",agg)
+
+#Calculation for UniIlorin
+  
+  
    
-for i in range(3):
- post_utme= float(input("enter your post utme score: "))
- if post_utme< 30:
-     break
- elif post_utme> 30:
-    print("ivalid input")
-   
-print("\n\n waec score: ",agg_w)
-print("jamb score: ",jamb)
-print("post utme score: ",post_utme)
-agg=agg_w+jamb/8+post_utme
-print("\n\n   Your aggregate is: ",agg)
 
 if agg < 50:
   print ("You have a very low chance of entering unilag")
