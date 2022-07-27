@@ -39,7 +39,7 @@ for i in range(5):
   break
   
  elif waec== "F9":
-  print("sorry Unilag dosent accept this grade ",waec)
+  print("sorry Universities dont accept this grade ",waec)
   break
    
 agg_w=a*a1+b*b2+c*b3+d*c4+e*c5+f*c6
@@ -86,5 +86,5 @@ if University == "Unilag"
   
    
 
-if agg < 50:
-  print ("You have a very low chance of entering unilag")
+if agg < 30:
+  print ("Sorry most schools dont accept aggregate lower than 30")
