@@ -68,8 +68,8 @@ if University == "Unilag"
 
  
  #Calculation For University of Ibadan
- elif University == "U.I":
-  for i in range(3):
+elif University == "U.I":
+ for i in range(3):
   post_utme= float(input("enter your post utme score: "))
   if post_utme< 100:
       break
